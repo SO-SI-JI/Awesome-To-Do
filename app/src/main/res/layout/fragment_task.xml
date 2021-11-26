@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task_title_label"/>
+
+    <EditText
+        android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titillium_web_semibold"
+        android:hint="@string/task_title_hint" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task_details_label"/>
+
+    <Button
+        android:id="@+id/task_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titillium_web_semibold"
+        tools:text="Mon Dec 13 12:00 EST 2021" />
+
+    <Button
+        android:id="@+id/task_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/done_btn"
+        android:fontFamily="@font/titillium_web_semibold"
+        android:gravity="center"
+        android:text="@string/task_done_label"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        app:icon="@drawable/outline_verified_20"
+        app:iconGravity="textStart"
+        app:iconPadding="10dp" />
+
+</LinearLayout>
