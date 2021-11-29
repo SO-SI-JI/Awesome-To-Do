@@ -15,9 +15,9 @@
 
     <EditText
         android:id="@+id/task_title"
+        style="@style/AwesomeEditTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/titillium_web_semibold"
         android:hint="@string/task_title_hint"
         android:minHeight="48dp" />
 
@@ -31,7 +31,6 @@
         android:id="@+id/task_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/titillium_web_semibold"
         tools:text="Mon Dec 13 12:00 EST 2021" />
 
     <Button
@@ -39,7 +38,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/teal_200"
-        android:fontFamily="@font/titillium_web_semibold"
         android:gravity="center"
         android:text="@string/task_done_label"
         android:textAlignment="center"

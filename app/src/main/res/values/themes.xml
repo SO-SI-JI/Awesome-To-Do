@@ -13,4 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="AwesomeButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/titillium_web_semibold</item>
+    </style>
+    <style name="AwesomeEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/titillium_web_semibold</item>
+    </style>
 </resources>
