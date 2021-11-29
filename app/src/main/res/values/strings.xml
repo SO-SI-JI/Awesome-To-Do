@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Awesome-To-Do</string>
+    <string name="new_task">New Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_date">Task Date</string>
+
+    <string name="task_title_hint">Type Something</string>
+    <string name="task_title_label">Title</string>
+    <string name="task_details_label">Details</string>
+    <string name="task_done_label">Done</string>
 </resources>
